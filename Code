@@ -1,0 +1,59 @@
+//This is the code to a text adventure game I made rather quickly, I don't know much code so you'll have to excuse that, enjoy!
+//This was written in C++, special thanks to those on the Hopson Community Server for helping out!
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string y;
+
+cout << "Welcome to my first text adventure game, enter your name to start: ";
+getline (cin, y);
+cout << "Oh nice to meet you, " << y;
+cout << ", My name is AI.an, a play on words of my original programmers name, cheesy, I know." << endl;
+cout << "Press enter to continue...";
+getline (cin, y);
+cout << "Let me run you down on what's happening, You and I are going to simulate a morning routine, you can just see me as that weird person who lives in your house that you don't know/Narrator" << endl;
+cout << "Press enter to continue" << endl;
+getline (cin, y);
+cout << "Whenever you make a choice, there will be brackets surrounding what you should type in response." << endl;
+cout << "Press enter to continue..." << endl;
+getline (cin, y);
+cout << "An example would be, Are oranges orange?  [Yes] or [No], you would type in either yes or no in response.";
+cout << "Press enter to continue..." << endl;
+getline (cin, y);
+cout << "That's all you'll need to know for now, " << y;
+cout << " ,Enjoy!" endl;
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    return 0;
+
+
+}
