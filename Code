@@ -4,9 +4,10 @@
 #include <string>
 using namespace std;
 
-int main()
-{
-    string y;
+int main(){
+
+//{
+string y;
 
 cout << "Welcome to my first text adventure game, enter your name to start: ";
 getline (cin, y);
@@ -23,37 +24,35 @@ getline (cin, y);
 cout << "An example would be, Are oranges orange?  [Yes] or [No], you would type in either yes or no in response.";
 cout << "Press enter to continue..." << endl;
 getline (cin, y);
-cout << "That's all you'll need to know for now, " << y;
-cout << " ,Enjoy!" endl;
-
+cout << "That's all you'll need to know for now" << y;
+cout << "Enjoy!" << endl;
+//}
  
+ string yes;
+ 
+ cout << "You wake up to your alarm you accidentally set early, and contemplate getting up, do you sleep in? [Yes] or not? [No]\n";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    return 0;
+cout << "Wake Up?\n";
+cin >> yes;
+if (yes == "yes") {
+    std::cout << "You wake up, feeling rather tired.\n";
+}
+else if ( Yes == "no") {
+    std::cout << "You sleep in for 30 minutes, and \n";
+}
+else {
+    std::cout << "Huh?\n";
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 
 }
