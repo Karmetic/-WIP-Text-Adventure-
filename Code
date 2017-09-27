@@ -2,6 +2,7 @@
 //This was written in C++, special thanks to those on the Hopson Community Server for helping out!
 #include <iostream>
 #include <string>
+#include <cstdlib>
 using namespace std;
 
 int main(){
@@ -46,6 +47,9 @@ else {
     std::cout << "*I guess you wake up anyways, obviously tired because you couldn't type yes or no*\n";
 }
 
+
+
+system("pause");
 return 0;
 
 
@@ -54,3 +58,4 @@ return 0;
 
 
 }
+
