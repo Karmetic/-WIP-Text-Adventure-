@@ -16,7 +16,7 @@ cout << "Oh nice to meet you, " << y;
 cout << ", My name is AI.an, a play on words of my original programmers name, cheesy, I know." << endl;
 cout << "Press enter to continue..." << endl;
 getline (cin, y);
-cout << "Let me run you down on what's happening, You and I are going to simulate a morning routine, you can just see me as that weird person who lives in your house that you don't know/Narrator" << endl;
+cout << "Let me run you down on what's happening, You and I are going to simulate a morning routine, except I'm a robot that functions your house." << endl;
 cout << "Press enter to continue..." << endl;
 getline (cin, y);
 cout << "Whenever you make a choice, there will be brackets surrounding what you should type in response." << endl;
@@ -31,21 +31,65 @@ cout << "Press enter to continue..." << endl;
 getline (cin, y);
 //}
 
- string yes;
+string yes;
 
  cout << "You wake up to your alarm you accidentally set early, and contemplate getting up, do you sleep in? [yes] or not? [no]\n";
 
 cout << "Wake Up?\n";
 cin >> yes;
-if (yes == "yes") {
-    std::cout << "*You wake up, feeling rather tired.*\n";
+if (yes == "no") {
+    getline (cin, y);
+    cout << "*You wake up, feeling rather tired.*\n";
+    getline (cin, y);
+    cout << "*You're very tired.*\n";
+    getline (cin, y);
+    cout << "*I'm warning you, it's a long game, you might want sleep!*\n";
+    getline (cin, y);
+    cout << "*Whatever, if you fall asleep it's on you...*\n";
+    getline (cin, y);
+    cout << "*sleepily, you get up to get dressed and AI.an begins to speak to you.*\n";
 }
-else if ( yes == "no") {
-    std::cout << "*You sleep in for 30 minutes, and feel decently energized* \n";
+else if ( yes == "yes") {
+    getline (cin, y);
+    cout << "*You sleep in for 30 minutes, and feel decently energized* \n";
+    getline (cin, y);
+    cout << "*You're running low on time, but that's ok, you still have an hour and a half before you have to leave* \n";
+    getline (cin, y);
+    cout << "*You get up, ready to take on the day, and AI.an begins to talk to you.*\n";
 }
 else {
-    std::cout << "*I guess you wake up anyways, obviously tired because you couldn't type yes or no*\n";
+    getline (cin, y);
+    cout << "*I guess you wake up anyways, obviously tired because you couldn't type yes or no*\n";
+    getline (cin, y);
+    cout << "....Honestly though, yes or no, it's pretty simple.....\n";
+    getline (cin, y);
+    cout << "I guess you need the instructions, again, fortunately since this is c++ you can read the instructions already\n";
+    getline (cin, y);
+    cout << "So uh yeah, on with the game\n";
+    getline (cin, y);
+    cout << "*Sleepily, you get up to get dressed and AI.an begins to speak to you.*\n";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -58,4 +102,5 @@ return 0;
 
 
 }
+
 
