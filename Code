@@ -35,7 +35,6 @@ string yes;
 
  cout << "You wake up to your alarm you accidentally set early, and contemplate getting up, do you sleep in? [yes] or not? [no]\n";
 
-cout << "Wake Up?\n";
 cin >> yes;
 if (yes == "no") {
     getline (cin, y);
@@ -68,7 +67,10 @@ else {
     cout << "So uh yeah, on with the game\n";
     getline (cin, y);
     cout << "*Sleepily, you get up to get dressed and AI.an begins to speak to you.*\n";
-}
+    getline (cin, y);
+    cout << "AI.an, good morning master, would you like me to prepare some coffee for you? [yes] or [no]\n";
+    }
+     cout << "AI.an, good morning master, would you like me to prepare some coffee for you? [yes] or [no]\n";
 
 
 
@@ -102,5 +104,3 @@ return 0;
 
 
 }
-
-
