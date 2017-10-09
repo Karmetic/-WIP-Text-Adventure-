@@ -31,12 +31,12 @@ cout << "Press enter to continue..." << endl;
 getline (cin, y);
 //}
 
-string yes;
+string decision;
 
- cout << "You wake up to your alarm you accidentally set early, and contemplate getting up, do you sleep in? [yes] or not? [no]\n";
+cout << "You wake up to your alarm you accidentally set early, and contemplate getting up, do you sleep in? [yes] or not? [no]\n";
 
-cin >> yes;
-if (yes == "no") {
+cin >> decision;
+if (decision == "no") {
     getline (cin, y);
     cout << "*You wake up, feeling rather tired.*\n";
     getline (cin, y);
@@ -48,7 +48,7 @@ if (yes == "no") {
     getline (cin, y);
     cout << "*sleepily, you get up to get dressed and AI.an begins to speak to you.*\n";
 }
-else if ( yes == "yes") {
+else if ( decision == "yes") {
     getline (cin, y);
     cout << "*You sleep in for 30 minutes, and feel decently energized* \n";
     getline (cin, y);
@@ -69,38 +69,26 @@ else {
     cout << "*Sleepily, you get up to get dressed and AI.an begins to speak to you.*\n";
     getline (cin, y);
     cout << "AI.an, good morning master, would you like me to prepare some coffee for you? [yes] or [no]\n";
+    getline (cin, y);
     }
-     cout << "AI.an, good morning master, would you like me to prepare some coffee for you? [yes] or [no]\n";
+
+cout << "AI.an, good morning master, would you like me to prepare some coffee for you? [yes] or [no]\n";
+
+cin >> decision;
+
+if (decision == "yes") {
+    getline (cin, y);
+    cout << "Yeah sure, put in that new pumpkin spice creamer I bought yesterday.\n";
+    getline (cin, y);
+    cout << "That will work, it should be done in about five minutes.\n";
+    getline (cin, y);
+    cout << "*You put on a polo you washed last night and get the rest of your clothes ready.  Soon after AI.an begins to speak.\n";
+    getline (cin, y);
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-system("pause");
-return 0;
-
-
-
-
-
-
+    }
+    system("pause");
+    return 0;
 }
